@@ -7,9 +7,18 @@ Authors@R:
            role = c("aut", "cre"),
            email = "marmello@usp.br",
            comment = c(ORCID = "0000-0002-9098-9427"))
-Description: This is the final Peer-graded Assignment from Coursera's Building an R Package. This example package contains functions provided for the students. These functions were written to analyze data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System. The FARS is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
+Description: This is the final Peer-graded Assignment from Coursera's Building an R Package. This example package contains functions provided for the students. These functions were written to analyze data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System. FARS is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
 License: `use_cc0_license()`
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports:
+   dplyr,
+   maps,
+   readr,
+   tidyr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
