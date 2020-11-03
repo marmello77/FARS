@@ -1,6 +1,7 @@
 ---
 title: "FARS"
 author: "Marco Mello"
+date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{FARS}
@@ -15,23 +16,28 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup, echo=TRUE, include=FALSE}
-library(FARS)
-library(maps)
-library(tidyverse)
-```
 
 This is the final Peer-graded Assignment from Coursera's Building an R Package. 
 
 The `FARS` package contains functions provided for the students. These functions were written to analyze data from the [US National Highway Traffic Safety Administration's Fatality Analysis Reporting System](https://www.nhtsa.gov) (FARS). FARS is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
 
+## Packages
 
-## Included data
+You need to load the following packages before starting:
 
-Data files included within the package are:
+```{r setup, echo=TRUE, include=TRUE}
+library(FARS)
+library(maps)
+library(tidyverse)
+```
+
+
+## Data
+
+Three data files are included within the package:
 
 ```{r}
-list.files(system.file("extdata", package = "fars"))
+list.files(system.file("extdata", package = "FARS"))
 ```
 
 
@@ -47,4 +53,4 @@ The package contains five functions used to read, name, filter, summarize, and p
 
 4. `fars_summarize_years`: This function summarizes the accidents by year and month for the data frames imported. It calls the function `fars_read_years` from within.
 
-5. `fars_map_state`: This function plots a map with the locations of accidents for the selected state and year.It calls the functions \code{make_filename} and `fars_read` from within. 
+5. `fars_map_state`: This function plots a map with the locations of accidents for the selected state and year.It calls the functions `make_filename` and `fars_read` from within. 
