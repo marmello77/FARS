@@ -36,9 +36,11 @@ library(tidyverse)
 
 Three data files are included within the package:
 
-```{r}
-list.files(system.file("extdata", package = "FARS"))
-```
+* accident_2013.csv.bz2
+
+* accident_2014.csv.bz2
+
+* accident_2015.csv.bz2
 
 
 ## Functions

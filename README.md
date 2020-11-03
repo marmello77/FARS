@@ -56,12 +56,12 @@ For this assignment you'll submit a link to the GitHub repository which contains
   
 ## Functionality
 
-This package contains functions provided for the students. These functions were written to analyze data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System. FARS is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes. See the vignette for further info.
+This package contains functions provided for the students. These functions were written to analyze data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System. 
 
 
 ## Data sources
 
-This package uses example data from the [US National Highway Traffic Safety Administration's Fatality Analysis Reporting System](https://www.nhtsa.gov) (FARS), which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes. 
+This package uses example data from the [US National Highway Traffic Safety Administration's Fatality Analysis Reporting System](https://www.nhtsa.gov) (FARS). FARS is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes. 
 
 Unfortunately, since the course was last updated, the website of FARS changed considerably and data are more difficult to find now. Therefore, the data actually used here were downloaded directly from the [course's website](https://d3c33hcgiwev3.cloudfront.net/_e1adac2a5f05192dc8780f3944feec13_fars_data.zip?Expires=1604534400&Signature=RTTvUAKz8DKWFiSEcAetz-uqBOzv79moF3uW0TbPA8k8fvG6Pa~o1wndjQsxlNKDxFWVONipYXks9nQ~G3zuKUfDj0ufW2d0ITHZlmi9VqjXjoTbW4MjXzoLX8I-CLjs-OG4VzhK6dewCktT1k2mIVfRodd72Kzu3BQTcqK5lZI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A).
 
