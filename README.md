@@ -47,6 +47,13 @@ For this assignment you'll submit a link to the GitHub repository which contains
 8.Are the build logs for this package on Travis free of any errors, warnings, or notes?
 
 
+## Travis testing
+
+<!-- badges: start -->
+  [![Travis build status](https://travis-ci.com/marmello77/FARS.svg?branch=master)](https://travis-ci.com/marmello77/FARS)
+  <!-- badges: end -->
+  
+
 ## Data sources
 
 This package uses example data from the [US National Highway Traffic Safety Administration's Fatality Analysis Reporting System](https://www.nhtsa.gov) (FARS), which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes. 
