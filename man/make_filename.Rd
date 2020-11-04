@@ -21,8 +21,9 @@ Second, the year will be added to the middle of a string that represents the
 main pattern of the file name, in the placeholder for an integer.
 }
 \examples{
+\dontrun{
 make_filename(2013)
 make_filename(2014)
 make_filename(2015)
-
+}
 }

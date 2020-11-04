@@ -21,8 +21,9 @@ Second, if the CSV file exists, it is read into R.
 Third, the data are converted to a tibble.
 }
 \examples{
+\dontrun{
 fars_read("accident_2013.csv")
 fars_read("accident_2014.csv")
 fars_read("accident_2015.csv")
-
+}
 }

@@ -22,8 +22,9 @@ state and year.It calls the functions \code{make_filename} and
 \code{fars_read} from within. T
 }
 \examples{
+\dontrun{
 fars_summarize_years(2013)
 fars_summarize_years(c(2013,2014))
 fars_summarize_years(2013:2015)
-
+}
 }

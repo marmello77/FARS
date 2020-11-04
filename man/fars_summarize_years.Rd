@@ -19,8 +19,9 @@ This function summarizes the accidents by year and month for the data frames
 imported. It calls the function \code{fars_read_years} from within.
 }
 \examples{
+\dontrun{
 fars_summarize_years(2013)
 fars_summarize_years(c(2013,2014))
 fars_summarize_years(2013:2015)
-
+}
 }

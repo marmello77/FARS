@@ -23,8 +23,9 @@ then stores them as data frames in a list. It works by calling the function
 \code{make_filename} from within
 }
 \examples{
+\dontrun{
 fars_read_years(2013)
 fars_read_years(c(2013,2014))
 fars_read_years(2013:2015)
-
+}
 }
