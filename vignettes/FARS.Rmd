@@ -27,7 +27,17 @@ The `FARS` package contains functions provided for the students. These functions
 
 ## Data source
 
-Unfortunately, since the course was last updated, the website of FARS changed considerably and data are more difficult to find now. Therefore, the data actually used here were downloaded directly from the [course's website](https://d3c33hcgiwev3.cloudfront.net/_e1adac2a5f05192dc8780f3944feec13_fars_data.zip?Expires=1604534400&Signature=RTTvUAKz8DKWFiSEcAetz-uqBOzv79moF3uW0TbPA8k8fvG6Pa~o1wndjQsxlNKDxFWVONipYXks9nQ~G3zuKUfDj0ufW2d0ITHZlmi9VqjXjoTbW4MjXzoLX8I-CLjs-OG4VzhK6dewCktT1k2mIVfRodd72Kzu3BQTcqK5lZI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A).
+Unfortunately, since the course was last updated, the FARS website changed considerably and data are more difficult to find now. Therefore, the data files used to test the functions included in this package were downloaded directly from the [course's website](https://d3c33hcgiwev3.cloudfront.net/_e1adac2a5f05192dc8780f3944feec13_fars_data.zip?Expires=1604534400&Signature=RTTvUAKz8DKWFiSEcAetz-uqBOzv79moF3uW0TbPA8k8fvG6Pa~o1wndjQsxlNKDxFWVONipYXks9nQ~G3zuKUfDj0ufW2d0ITHZlmi9VqjXjoTbW4MjXzoLX8I-CLjs-OG4VzhK6dewCktT1k2mIVfRodd72Kzu3BQTcqK5lZI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A).
+
+Three data files from FARS dowloaded from the course's website were used to test this package:
+
+* accident_2013.csv.bz2
+
+* accident_2014.csv.bz2
+
+* accident_2015.csv.bz2
+
+If you want to download equivalent data files from other years, visit the [Download Your Data](https://cdan.nhtsa.gov) section of the FARS website.
 
 
 ## Packages
@@ -40,17 +50,6 @@ library(maps)
 library(readr)
 library(tidyr)
 ```
-
-
-## Data
-
-Three data files from FARS are included with the package:
-
-* accident_2013.csv.bz2
-
-* accident_2014.csv.bz2
-
-* accident_2015.csv.bz2
 
 
 ## Functions

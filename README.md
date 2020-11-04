@@ -49,9 +49,7 @@ For this assignment you'll submit a link to the GitHub repository which contains
 
 ## Travis testing
 
-<!-- badges: start -->
-  [![Travis build status](https://travis-ci.com/marmello77/FARS.svg?branch=master)](https://travis-ci.com/marmello77/FARS)
-  <!-- badges: end -->
+[![Build Status](https://travis-ci.org/marmello77/FARS.svg?branch=main)](https://travis-ci.org/marmello77/FARS)
   
   
 ## Functionality
@@ -68,8 +66,15 @@ Unfortunately, since the course was last updated, the website of FARS changed co
 
 # Further readings
 
-To complete this peer-graded assignment, in addition to the course's readings, I have also consulted other invaluable sources, which are listed here. If you want to dive deeper into the details about how to build an R package, read the following sources, in this order:
+To complete this peer-graded assignment, in addition to the course's readings, I have also consulted other invaluable sources, which are listed here. If you want to dive deeper into the details about how to build an R package, read the following tutorials:
 
 1. [Writing an R package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
 
 2. [R Packages](https://r-pkgs.org/index.html)
+
+3. [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html)
+
+4. [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+5. [How to Add a Vignette to a Package in RStudio](https://www.r-bloggers.com/2020/05/how-to-add-a-vignette-to-a-package-in-rstudio/)
+
