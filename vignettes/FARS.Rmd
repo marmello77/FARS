@@ -16,6 +16,9 @@ knitr::opts_chunk$set(
 )
 ```
 
+```{r setup}
+library(FARS)
+```
 
 This is the final Peer-graded Assignment from Coursera's Building an R Package. 
 
@@ -32,17 +35,10 @@ Unfortunately, since the course was last updated, the website of FARS changed co
 You need to load the following dependencies before starting:
 
 ```{r, echo=TRUE, include=TRUE}
-library(FARS)
 library(dplyr)
 library(maps)
 library(readr)
 library(tidyr)
-```
-
-## Now load this package:
-
-```{r, echo=TRUE, include=TRUE}
-library(FARS)
 ```
 
 
