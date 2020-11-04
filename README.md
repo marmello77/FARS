@@ -47,7 +47,7 @@ For this assignment you'll submit a link to the GitHub repository which contains
 8. Are the build logs for this package on Travis free of any errors, warnings, or notes?
 
 
-## Travis testing
+## Travis testing badge
 
 [![Build Status](https://travis-ci.org/marmello77/FARS.svg?branch=main)](https://travis-ci.org/marmello77/FARS)
   
