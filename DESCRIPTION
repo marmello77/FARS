@@ -18,6 +18,7 @@ Imports:
    magrittr,
    maps,
    readr,
+   rlang,
    tidyr
 Suggests: 
     knitr,
