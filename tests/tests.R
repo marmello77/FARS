@@ -1,6 +1,5 @@
 library(testthat)
 library(FARS)
-library(tidyverse)
 
 # Test the function fars_read
 test_that("Check if the files are read into R in the expect format", {

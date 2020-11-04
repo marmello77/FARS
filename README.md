@@ -44,7 +44,7 @@ For this assignment you'll submit a link to the GitHub repository which contains
 
 7. Is the build of this package passing on Travis?
 
-8.Are the build logs for this package on Travis free of any errors, warnings, or notes?
+8. Are the build logs for this package on Travis free of any errors, warnings, or notes?
 
 
 ## Travis testing

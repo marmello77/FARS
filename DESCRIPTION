@@ -19,6 +19,7 @@ Imports:
    maps,
    readr,
    rlang,
+   testthat,
    tidyr
 Suggests: 
     knitr,
